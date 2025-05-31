@@ -1,0 +1,3 @@
+[submodule "02-machine-learning/projects"]
+	path = 02-machine-learning/projects
+	url = git@github.com:RahulSaini02/machine-learning-projects.git
