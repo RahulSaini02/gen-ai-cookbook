@@ -13,7 +13,7 @@ Anatomy of Neural Networks:
 
 > **Note:** "Patterns" is an arbitrary word for **embeddings**, **weights**, **feature representation**, **feature vectors**
 
-![alt text](image.png)
+![alt text](/03-deep-learning/assets/neural-networks.png)
 
 ### Types of Learning
 
@@ -40,6 +40,6 @@ Anatomy of Neural Networks:
 
 Tensors are numerical representation of any item. 
 
-![alt text](image-1.png)
+![alt text](/03-deep-learning/assets/tensors.png)
 
  
