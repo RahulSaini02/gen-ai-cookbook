@@ -1,0 +1,15 @@
+ipykernel
+matplotlib
+mlflow
+numpy
+pandas
+python-dotenv
+regex
+requests
+scikit-learn
+torch
+torchaudio
+torchmetrics
+torchvision
+typing
+xgboost
