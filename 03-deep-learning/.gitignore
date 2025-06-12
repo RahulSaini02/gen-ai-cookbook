@@ -93,6 +93,6 @@ target/
 # notebooks/models/
 
 # exclude data from source control by default
-/notebooks/data/FashionMNIST
-/notebooks/data/Food101/pizza_steak_sushi
-/notebooks/data/Food101/pizza_steak_sushi.zip
+**/data/FashionMNIST
+**/pizza_steak_sushi
+**/pizza_steak_sushi.zip
