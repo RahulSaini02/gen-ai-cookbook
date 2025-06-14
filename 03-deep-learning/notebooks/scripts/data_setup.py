@@ -39,25 +39,25 @@ def create_dataloaders(
                              num_workers=4)
   """
 
-# Use ImageFolder to create dataset(s)
-train_data = datasets.ImageFolder(root=train_dir, transform=data_transform)
-test_data = datasets.ImageFolder(root=test_dir, transform=data_transform)
+  # Use ImageFolder to create dataset(s)
+  train_data = datasets.ImageFolder(root=train_dir, transform=transform)
+  test_data = datasets.ImageFolder(root=test_dir, transform=transform)
 
-# Get class names
-class_names = train_data.classes
+  # Get class names
+  class_names = train_data.classes
 
-train_dataloader = DataLoader(
-    dataset=train_data, 
-    batch_size=batch_size, 
-    num_workers=num_workers, 
-    shuffle=True
-)
+  train_dataloader = DataLoader(
+      dataset=train_data, 
+      batch_size=batch_size, 
+      num_workers=num_workers, 
+      shuffle=True
+  )
 
-test_dataloader = DataLoader(
-    dataset=test_data, 
-    batch_size=batch_size, 
-    num_workers=num_workers, 
-    shuffle=False
-)
+  test_dataloader = DataLoader(
+      dataset=test_data, 
+      batch_size=batch_size, 
+      num_workers=num_workers, 
+      shuffle=False
+  )
 
-return train_dataloader, test_dataloader, class_names
+  return train_dataloader, test_dataloader, class_names

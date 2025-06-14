@@ -4,6 +4,7 @@ Contains functions for training and testing a PyTorch model.
 
 from typing import Dict, List, Tuple
 from tqdm.auto import tqdm
+import torch
 
 def train_step(
     model: torch.nn.Module,
@@ -32,6 +33,7 @@ def train_step(
     (0.1112, 0.8743)
     """
     # Put model in train mode
+    model.to(device)
     model.train()
 
     # Setup train loss and train accuracy values
@@ -91,6 +93,7 @@ def test_step(
     (0.0223, 0.8985)
     """
     # Put model in eval mode
+    model.to(device)
     model.eval()
 
     # Setup test loss and test accuracy values

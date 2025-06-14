@@ -90,9 +90,10 @@ target/
 .venv/
 
 # Exclude trained models
-# notebooks/models/
+notebooks/models/
 
 # exclude data from source control by default
-**/data/FashionMNIST
-**/pizza_steak_sushi
-**/pizza_steak_sushi.zip
+**/data/
+
+# Exclude ML Tracking
+**/runs
