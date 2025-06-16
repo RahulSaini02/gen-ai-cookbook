@@ -97,3 +97,6 @@ notebooks/models/
 
 # Exclude ML Tracking
 **/runs
+
+# exclude kaggle key
+kaggle.json

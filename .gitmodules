@@ -1,3 +1,6 @@
 [submodule "02-machine-learning/projects"]
 	path = 02-machine-learning/projects
 	url = git@github.com:RahulSaini02/machine-learning-projects.git
+[submodule "03-deep-learning/projects/pytorch-foodvision-101"]
+	path = 03-deep-learning/projects/pytorch-foodvision-101
+	url = https://github.com/RahulSaini02/pytorch-foodvision-101.git
