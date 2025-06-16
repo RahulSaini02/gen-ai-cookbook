@@ -7,3 +7,6 @@
 [submodule "04-gen-ai/projects/aws-bedrock-rag-chatbot"]
 	path = 04-gen-ai/projects/aws-bedrock-rag-chatbot
 	url = git@github.com:RahulSaini02/aws-bedrock-rag-chatbot.git
+[submodule "03-deep-learning/projects/sentiment-analysis-with-transformers"]
+	path = 03-deep-learning/projects/sentiment-analysis-with-transformers
+	url = https://github.com/RahulSaini02/sentiment-analysis-with-transformers.git
