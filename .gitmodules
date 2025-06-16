@@ -4,3 +4,6 @@
 [submodule "03-deep-learning/projects/pytorch-foodvision-101"]
 	path = 03-deep-learning/projects/pytorch-foodvision-101
 	url = https://github.com/RahulSaini02/pytorch-foodvision-101.git
+[submodule "04-gen-ai/projects/aws-bedrock-rag-chatbot"]
+	path = 04-gen-ai/projects/aws-bedrock-rag-chatbot
+	url = git@github.com:RahulSaini02/aws-bedrock-rag-chatbot.git
