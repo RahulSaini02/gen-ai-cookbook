@@ -10,3 +10,6 @@
 [submodule "03-deep-learning/projects/sentiment-analysis-with-transformers"]
 	path = 03-deep-learning/projects/sentiment-analysis-with-transformers
 	url = https://github.com/RahulSaini02/sentiment-analysis-with-transformers.git
+[submodule "03-deep-learning/projects/portfolio-stock-price-prediction-with-lstm"]
+	path = 03-deep-learning/projects/portfolio-stock-price-prediction-with-lstm
+	url = git@github.com:RahulSaini02/portfolio-stock-price-prediction-with-lstm.git
