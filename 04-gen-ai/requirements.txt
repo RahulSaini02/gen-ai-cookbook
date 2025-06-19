@@ -1,0 +1,6 @@
+torch
+transformers
+ipykernel
+peft 
+bitsandbytes 
+optimum
