@@ -18,11 +18,10 @@ This directory is your hands-on learning space for everything related to **Gener
 │   ├── 06_optimizations.ipynb
 │   └── README.md
 │
-├── 02-rag/                    # Retrieval-Augmented Generation (coming soon)
+├── 02-llm/                    # Large Language Models
 │
-├── 03-finetuning/             # Fine-tuning LLMs with LoRA, PEFT, DPO (planned)
+├── 03-rag/                    # Retrieval-Augmented Generation
 │
-├── 04-deploy/                 # Gradio/Streamlit + Hugging Face Spaces (planned)
 │
 └── README.md             
 ```
