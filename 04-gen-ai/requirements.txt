@@ -1,6 +1,9 @@
+accelerate
+bitsandbytes 
+datasets
+ipykernel
+optimum
+peft 
 torch
 transformers
-ipykernel
-peft 
-bitsandbytes 
-optimum
+trl
