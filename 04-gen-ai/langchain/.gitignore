@@ -1,4 +1,4 @@
-/data/
-/indexes/
+data/
+indexes/
 .venv
 .env
