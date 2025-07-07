@@ -1,7 +1,7 @@
 # Retrieval-Augmented Generation (RAG) using OpenAI
 # Scraping a web url and answer questions from it."
 
-# Run - `streamlit run 02-retrieval-argmented-generation-using-ollama.py`
+# Run - `streamlit run rag-ollama.py`
 
 import os
 from dotenv import load_dotenv
