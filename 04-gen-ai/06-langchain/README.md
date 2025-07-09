@@ -16,9 +16,7 @@ The content is divided into topic-based folders following a chronological learni
 
 ### 02. ⚙️ LangChain Fundamentals
 - Overview of key LangChain components (prompts, chains, memory, models).
-- Building a basic chatbot with message history.
 - 📘 `langchain-components-overview.md`
-- 📘 `chatbot-message-history.ipynb`
 
 ---
 
@@ -28,30 +26,6 @@ The content is divided into topic-based folders following a chronological learni
 - 📘 `document-loaders.ipynb`
 - 📘 `text-splitters.ipynb`
 - 📁 `data/` — Raw sample PDFs, articles, etc.
-
----
-
-### 04. 🧠 Embeddings & VectorStores
-- Creating text embeddings.
-- Working with vector databases (FAISS, Chroma).
-- Implementing retrievers.
-- 📘 `embeddings.ipynb`
-- 📘 `vectorstores.ipynb`
-- 📘 `retrievers.ipynb`
-
----
-
-### 05. 🔁 Retrieval Augmented Generation (RAG)
-- Building RAG pipelines using:
-  - OpenAI (`rag-openai.ipynb`)
-  - Ollama (`rag-ollama.py`)
-
----
-
-### 06. 🕹️ Agents & Agentic Workflows
-- Difference between agents and traditional chains.
-- Intro to ReAct, Tool use, and decision-making with LLMs.
-- 📘 `agents-vs-agentic-ai.md`
 
 ---
 
