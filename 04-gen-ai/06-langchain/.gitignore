@@ -1,4 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Virtual Environments
+.venv/
+.env/
+
+# Environment variables
+.env
+
+# Folders
 data/
 indexes/
-.venv
-.env
+
+# System
+.DS_Store
