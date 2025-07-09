@@ -1,0 +1,16 @@
+accelerate
+beautifulsoup4
+datasets
+gradio
+ipykernel
+ipywidgets
+isodate
+jupyterlab
+ollama
+pandas
+requests
+sentence-transformers==3.3.1
+torch==2.3.0
+torchaudio
+torchvision
+transformers==4.48.0
