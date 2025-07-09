@@ -48,4 +48,4 @@ Next, the RAG model augments the user input (or prompts) by adding the relevant 
 ### Update external data
 The next question may be—what if the external data becomes stale? To maintain current information for retrieval, asynchronously update the documents and update embedding representation of the documents. You can do this through automated real-time processes or periodic batch processing. This is a common challenge in data analytics—different data-science approaches to change management can be used.
 
-![RAG computational flow](image.png)
+![RAG computational flow](./assets/image.png)
