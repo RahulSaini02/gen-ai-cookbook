@@ -1,0 +1,6 @@
+langchain
+langchain_community
+ipykernel
+openai
+langchain_openai
+wikipedia

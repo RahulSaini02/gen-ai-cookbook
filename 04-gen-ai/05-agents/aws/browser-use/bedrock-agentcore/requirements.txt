@@ -1,0 +1,10 @@
+python-dotenv
+ipykernel
+browser-use<0.3.3
+langchain_aws
+uv
+rich
+fastapi
+uvicorn
+bedrock_agentcore
+browser-use[memory]

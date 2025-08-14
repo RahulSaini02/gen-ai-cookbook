@@ -1,0 +1,14 @@
+python-dotenv
+ipykernel
+boto3
+botocore
+awscli
+opensearch-py
+requests-aws4auth
+pyyaml
+retrying
+pandas
+strands-agents
+strands-agents-builder
+strands-agents-tools
+strands-agents[openai]
