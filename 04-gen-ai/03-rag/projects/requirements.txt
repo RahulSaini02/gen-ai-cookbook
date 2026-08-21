@@ -1,0 +1,12 @@
+anthropic
+openai
+dotenv
+ipykernel
+ollama
+chromadb
+pandas
+numpy
+uuid
+requests
+PyMuPDF
+typing

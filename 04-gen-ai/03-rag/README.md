@@ -22,6 +22,9 @@ This module covers everything you need to know about **Retrieval-Augmented Gener
 ├── assets/                        # Sample data, PDFs, or embedding outputs
 ├── langchain/                    # LangChain-based RAG examples
 │   └── chatbot-retriever-memory.ipynb
+├── projects/                     # Applied, curriculum-driven RAG builds
+│   ├── customer-support-agent/   # Naive RAG for e-commerce support
+│   └── hybrid-retrieval/         # Hybrid sparse+dense retrieval (scaffold)
 ├── 01-intro-to-rag.md            # Conceptual overview of RAG
 ├── 02-embeddings.ipynb           # Generate and explore text embeddings
 ├── 03-retrievers.ipynb           # Create retrievers with FAISS, Chroma, etc.

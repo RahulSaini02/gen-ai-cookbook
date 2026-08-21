@@ -1,0 +1,77 @@
+[
+  {
+    "order_id": "ORD-2024-001",
+    "customer_id": "CUST001",
+    "order_date": "2024-08-01",
+    "status": "delivered",
+    "total_amount": 349.99,
+    "items": [
+      {"sku": "LAPTOP-001", "name": "Wireless Laptop", "qty": 1, "price": 299.99},
+      {"sku": "CABLE-002", "name": "USB-C Cable", "qty": 2, "price": 25.00}
+    ],
+    "shipping_address": "123 Oak St, Portland OR 97201",
+    "delivery_date": "2024-08-05",
+    "payment_method": "credit_card",
+    "notes": ""
+  },
+  {
+    "order_id": "ORD-2024-002",
+    "customer_id": "CUST002",
+    "order_date": "2024-08-03",
+    "status": "processing",
+    "total_amount": 899.50,
+    "items": [
+      {"sku": "PHONE-001", "name": "Smartphone Pro", "qty": 1, "price": 899.50}
+    ],
+    "shipping_address": "456 Pine Ave, Seattle WA 98101",
+    "delivery_date": null,
+    "payment_method": "debit_card",
+    "notes": "Express shipping requested"
+  },
+  {
+    "order_id": "ORD-2024-003",
+    "customer_id": "CUST001",
+    "order_date": "2024-07-20",
+    "status": "returned",
+    "total_amount": 150.00,
+    "items": [
+      {"sku": "HEADPHONE-001", "name": "Wireless Headphones", "qty": 1, "price": 150.00}
+    ],
+    "shipping_address": "123 Oak St, Portland OR 97201",
+    "delivery_date": "2024-07-24",
+    "return_initiated": "2024-07-28",
+    "return_reason": "defective_audio",
+    "refund_status": "completed",
+    "refund_amount": 150.00,
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "ORD-2024-004",
+    "customer_id": "CUST003",
+    "order_date": "2024-08-10",
+    "status": "shipped",
+    "total_amount": 475.00,
+    "items": [
+      {"sku": "TABLET-001", "name": "Tablet Device", "qty": 1, "price": 475.00}
+    ],
+    "shipping_address": "789 Elm Rd, Denver CO 80202",
+    "delivery_date": null,
+    "tracking_number": "TRK123456789",
+    "payment_method": "credit_card",
+    "notes": "Customer requested white color"
+  },
+  {
+    "order_id": "ORD-2024-005",
+    "customer_id": "CUST005",
+    "order_date": "2024-08-08",
+    "status": "delivered",
+    "total_amount": 1250.00,
+    "items": [
+      {"sku": "LAPTOP-PRO", "name": "Professional Laptop", "qty": 1, "price": 1250.00}
+    ],
+    "shipping_address": "321 Maple Dr, Boston MA 02101",
+    "delivery_date": "2024-08-10",
+    "payment_method": "credit_card",
+    "notes": "VIP customer priority shipping"
+  }
+]

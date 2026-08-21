@@ -1,0 +1,38 @@
+{
+  "prompt_version": "v1",
+  "timestamp": "2026-08-16T20:06:24.840780",
+  "passed": 2,
+  "total": 3,
+  "score": 0.6666666666666666,
+  "results": [
+    {
+      "description": "Return policy - basic question (docs-only)",
+      "passed": true,
+      "query": "What's your return policy?",
+      "customer_id": "CUST001",
+      "missing_keywords": [],
+      "found_forbidden": [],
+      "response": "Hello! I'm Maya, the customer support agent for Saini E-commerce.\n\nOur return policy is as follows:\n\n**Return Windows**\n* **Standard Returns:** Within 30 days from the order date.\n* **Extended Returns:** 60 days for items purchased during the holiday season (November\u2013December).\n* **Defective Items:** 90 days for manufacturer defects.\n\n**Eligibility Requirements**\n* Items must be unused and in original condition with all packaging and accessories.\n* An original receipt or order confirmation is required.\n* Items purchased on clearance or explicitly marked as final sale are not returnable unless they are defective.\n\n**Non-Returnable Items**\n* Underwear and intimate apparel.\n* Opened software or digital licenses.\n* Custom or personalized items (except if defective).\n* Items purchased over 30 days ago (except if defective).\n\n**Return Process**\n1. Initiate the return through your customer account portal or by calling support.\n2. You will receive a return shipping label via email.\n3. The item must be shipped back to the returns center within 14 days of approval.\n4. Refunds are issued 5-7 business days after the item is received and inspected.\n\n**Refund Methods**\n* **Original payment method:** Credited within 5-7 business days.\n* **Store credit:** Instant credit, including a 10% bonus on the credit amount.\n* **Gift card:** Issued within 24 hours."
+    },
+    {
+      "description": "Return eligibility - order-specific (DB + RAG)",
+      "passed": false,
+      "query": "Can I return my recent order?",
+      "customer_id": "CUST003",
+      "missing_keywords": [
+        "shipped"
+      ],
+      "found_forbidden": [],
+      "response": "Hello! I'm Maya, your customer support agent for Saini E-commerce.\n\nI cannot confirm that your recent order (ORD-2024-004) is eligible for a return. According to our policy, standard returns must be made within 30 days of the order date. Your order was placed on August 10, 2024, and as today is August 16, 2026, it is outside the return window.\n\nIf you believe the item is defective, the return window is extended to 90 days, but this order is also outside that timeframe. \n\nI can route your request to a customer support agent if you would like further assistance."
+    },
+    {
+      "description": "Out-of-policy question - must not hallucinate",
+      "passed": true,
+      "query": "Do you accept Bitcoin?",
+      "customer_id": "CUST002",
+      "missing_keywords": [],
+      "found_forbidden": [],
+      "response": "Hello! I'm Maya, and I'd be happy to help you.\n\nWe do not accept Bitcoin. Our accepted payment methods are credit cards (Visa, Mastercard, American Express, Discover), debit cards, PayPal, Apple Pay, Google Pay, and Shop Pay."
+    }
+  ]
+}
