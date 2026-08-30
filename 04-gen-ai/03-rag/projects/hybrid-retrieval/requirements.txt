@@ -1,0 +1,10 @@
+openai
+python-dotenv
+ipykernel
+pandas
+numpy
+requests
+bm25s
+cohere
+datasets
+tqdm

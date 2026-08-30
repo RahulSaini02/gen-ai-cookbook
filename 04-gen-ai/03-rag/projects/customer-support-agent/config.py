@@ -26,6 +26,7 @@ DATABASE_PATH = "./data/support.db"
 # Data paths
 DATA_DIR = "./data"
 DOCS_DIR = "./data/docs"
+EMBEDDINGS_DIR = "./data/embeddings"
 EMBEDDINGS_FILE = "./data/embeddings/data.json"
 PROMPTS_DIR = "./prompts"
 

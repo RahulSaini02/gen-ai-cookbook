@@ -10,3 +10,5 @@ uuid
 requests
 PyMuPDF
 typing
+BM25
+ipykernel

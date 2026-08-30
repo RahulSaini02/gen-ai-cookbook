@@ -21,29 +21,39 @@ def generate(
     tier: str = DEFAULT_LLM_TIER,
     think: str | None = None,
 ) -> str | None:
-    """Generate response from LLM with local/cloud fallback."""
+    """Generate a response using either local or cloud Ollama."""
+
     messages.append({"role": "user", "content": message})
 
     try:
-        if tier == "local":
-            if is_ollama_active():
-                try:
-                    response = chat(model=model, messages=messages, think=think)
-                except ResponseError:
-                    print(f"Local model '{model}' not available.")
-                    print("Falling back to Ollama Cloud...")
-                    response = chat(
-                        model=f"{model}:cloud", messages=messages, think=think
-                    )
-            else:
+        if tier == "cloud":
+            response = chat(
+                model=model,
+                messages=messages,
+                think=think,
+            )
+
+        elif tier == "local":
+            if not is_ollama_active():
                 print("Ollama is not running.")
-                print("Falling back to Ollama Cloud...")
-                response = chat(model=f"{model}:cloud", messages=messages, think=think)
+                return None
+
+            response = chat(
+                model=model,
+                messages=messages,
+                think=think,
+            )
+
         else:
-            response = chat(model=f"{model}:cloud", messages=messages, think=think)
+            raise ValueError(f"Invalid tier: {tier}")
 
         if response.message.content:
-            messages.append({"role": "assistant", "content": response.message.content})
+            messages.append(
+                {
+                    "role": "assistant",
+                    "content": response.message.content,
+                }
+            )
 
         return response.message.content
 
